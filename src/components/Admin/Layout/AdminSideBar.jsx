@@ -93,42 +93,6 @@ const AdminSideBar = ({ active }) => {
         </Link>
       </div>
 
-      <div className="w-full flex items-center p-4">
-        <Link to="/admin-events" className="w-full flex items-center">
-          <MdOutlineLocalOffer
-            size={30}
-            color={`${active === 6 ? "crimson" : "#555"}`}
-          />
-          <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 6 ? "text-[crimson]" : "text-[#555]"
-            }`}
-          >
-            All Events
-          </h5>
-        </Link>
-      </div>
-
-
-
-      <div className="w-full flex items-center p-4">
-        <Link
-          to="/admin-withdraw-request"
-          className="w-full flex items-center"
-        >
-          <CiMoneyBill
-            size={30}
-            color={`${active === 7 ? "crimson" : "#555"}`}
-          />
-          <h5
-            className={`hidden 800px:block pl-2 text-[18px] font-[400] ${
-              active === 7 ? "text-[crimson]" : "text-[#555]"
-            }`}
-          >
-            Withdraw Request
-          </h5>
-        </Link>
-      </div>
 
       <div className="w-full flex items-center p-4">
         <Link

@@ -1,26 +1,25 @@
-import LoginPage from "../pages/Login";
-import SignupPage from "../pages/SignupPage";
-import ActivationPage from "../pages/ActivationPage";
-import HomePage from "../pages/HomePage";
-import ProductsPage from "../pages/ProductsPage";
-import BestSellingPage from "../pages/BestSellingPage";
-import FAQPage from "../pages/FAQPage";
-import CheckoutPage from "../pages/CheckoutPage";
+import {lazy} from 'react'
 import PaymentPage from "../pages/PaymentPage";
-import OrderSuccessPage from "../pages/OrderSuccessPage";
-import ProductDetailsPage from "../pages/ProductDetailsPage";
-import ProfilePage from "../pages/ProfilePage";
-import ShopCreatePage from "../pages/ShopCreate";
-import SellerActivationPage from "../pages/SellerActivationPage";
-import ShopLoginPage from "../pages/ShopLoginPage";
-import OrderDetailsPage from "../pages/OrderDetailsPage";
-import TrackOrderPage from "../pages/TrackOrderPage";
-import UserInbox from "../pages/UserInbox.jsx";
+
+const LoginPage = lazy(() => import("../pages/Login"));
+const SignupPage = lazy(() => import("../pages/SignupPage"));
+const HomePage = lazy(() => import("../pages/HomePage"));
+const ProductsPage = lazy(() => import("../pages/ProductsPage"));
+const BestSellingPage = lazy(() => import("../pages/BestSellingPage"));
+const FAQPage = lazy(() => import("../pages/FAQPage"));
+const CheckoutPage = lazy(() => import("../pages/CheckoutPage"));
+const OrderSuccessPage = lazy(() => import("../pages/OrderSuccessPage"));
+const ProductDetailsPage = lazy(() => import("../pages/ProductDetailsPage"));
+const ProfilePage = lazy(() => import("../pages/ProfilePage"));
+const ShopCreatePage = lazy(() => import("../pages/ShopCreate"));
+const ShopLoginPage = lazy(() => import("../pages/ShopLoginPage"));
+const OrderDetailsPage = lazy(() => import("../pages/OrderDetailsPage"));
+const TrackOrderPage = lazy(() => import("../pages/TrackOrderPage"));
+const UserInbox = lazy(() => import("../pages/UserInbox.jsx"));
 
 export { 
     LoginPage,
     SignupPage,
-    ActivationPage,
     HomePage,
     ProductsPage,
     BestSellingPage,
@@ -31,7 +30,6 @@ export {
     ProductDetailsPage,
     ProfilePage,
     ShopCreatePage,
-    SellerActivationPage,
     ShopLoginPage,
     OrderDetailsPage,
     TrackOrderPage,
