@@ -18,10 +18,9 @@ const Hero = () => {
           Best Place for <br /> Online Shopping
         </h1>
         <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae,
-          assumenda? Quisquam itaque <br /> exercitationem labore vel, dolore
-          quidem asperiores, laudantium temporibus soluta optio consequatur{" "}
-          <br /> aliquam deserunt officia. Dolorum saepe nulla provident.
+        Don't miss the Best Deals and Offers in every Products{" "}
+            {" "}
+          <br /> Our Product That Inspire Customers to Spend Money.
         </p>
         <Link to="/products" className="inline-block">
             <div className={`${styles.button} mt-5`}>
